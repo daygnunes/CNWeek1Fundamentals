@@ -119,41 +119,138 @@ Use a loop to cycle through the array
 
 // ACTIVITY 3
 
-// for (let i = 0; i < 10; i++) {
-//     console.log(i);
+//ACTIVITY 3 DAY 3 - 1.4  +++++++++++++++++++++++
+
+// for (let i = 9; i>=0; i--){
+//   console.log(i)
 // }
 
-// nao deu certo 
-// for (let i = 0; i < 10; i--){
-//     console.log(i);
+//ACTIVITY 4 DAY 3 - 1.4  +++++++++++++++++++++++
+
+// let movies = [
+//     "007 no time to die",
+//     "Eternals",
+//     "Ghostbusters",
+//     "Red notice"
+// ];
+// for (let i = 0; i < movies.length; i++){
+//     if (i = 1){
+//         console.log("YAY It's my favorite movie.")
+//     } else 
+//     console.log("Boooo we want Ghostbusters" )
+
+
+
+
+// let movies = [
+//     "007 no time to die",
+//     "Eternals",
+//     "Ghostbusters",
+//     "Red notice"
+// ];
+// for (let i = 0; i < movies.length; i++){
+//     if (i = 1){
+//         console.log("YAY It's my favorite movie.")
+//     } else 
+//     console.log("Boooo we want Ghostbusters" )
 // }
 
-// let i = 4
-// while (i < 10)
-// {
-//     console.log(i);
-// i--
+
+//ACTIVITY 5 DAY 3 - 1.4  +++++++++++++++++++++++
+
+
+// let num = Math.floor(Math.random() * 30)
+// for (let i = 0; i < 6; i++){
+//   console.log(num)
+//   if (num % 7 == 0){
+//     console.log(` ----- ${num} is divisble by 7!`)
+//   }
+//   num = Math.floor(Math.random() * 30)
 // }
 
-// for (let i = 10; i >= 0; i=i-1) 
-//     console.log(i);
+
+//ACTIVITY 6 DAY 3 - 1.4  +++++++++++++++++++++++
+
+// // Activity 6 
+// let chrisFollowers = ['Ben', 'Jordan', 'Dan', 'John'];
+// let johnFollowers = ['Chris', 'Jordan', 'Dan', 'Ben'];
+// for (let i = 0; i<chrisFollowers.length; i++){
+//   for (let j = 0; j<johnFollowers.length; j++){
+//     }
+//     if (chrisFollowers[i] === johnFollowers[i]){
+//         console.log(`${chrisFollowers[i]} is in both arrays!`)
+//   }
+// }
+
+//ACTIVITY 7 DAY 3 - 1.4  +++++++++++++++++++++++
 
 
+// // Activity 7
+// let result = '';
+// let i = 0;
+// do {
+//   i = i + 1;
+//   result = result + i;
+// } while (i < 5);
+// console.log(result);
 
-let movies = [
-    "007 no time to die",
-    "Eternals",
-    "Ghostbusters",
-    "Red notice"
-];
-for (let i = 0; i < movies.length; i++){
-    if (i = 1){
-        console.log("YAY It's my favorite movie.")
-    } else 
-    console.log("Boooo we want Ghostbusters" )
-}
+// let age=24;
+// if(age>18){
+// console.log(`${age} - £8`)
 
+// } else if (age>18){
+// console.log(`${age} - £10.95`)
+// }
+// else {
+// console.log(`${age} -£7.50`)
+// }
 
+// let favSongs = [
+//     "Grace",
+//     "Something",
+//     "Stairway To Heaven"
+// ];
 
+// console.log(favSongs[0]);
+// console.log(favSongs[1]);
+// console.log(favSongs[2]);
 
+//ACTIVITY 1 DAY 4 - 1.5  +++++++++++++++++++++++
+// const factorial = (n) => {
+//     if ((n === 0) || (n === 1)){
+//         return 1;
+//     } else {
+//         return (n * factorial (n-1));
+//     }
+// }
+// console.log(factorial(33));
 
+//ACTIVITY 2 DAY 4 - 1.5  +++++++++++++++++++++++
+// const takeOrder = (topping1, topping2) => {
+//   console.log(`Pizza with ${topping1} & ${topping2}`);
+//   orderCount++
+// }
+
+// console.log(takeOrder("Ham", "Pineapple"));
+// console.log(orderCount);
+
+//ACTIVITY 3 DAY 4 - 1.5  +++++++++++++++++++++++
+// const cashWithdrawal = (amount, accnum) => {
+// console.log(`withdrawing £ ${amount} from account ${accnum}`);
+
+// }
+// //arguments
+// cashWithdrawal (300, 500002203);
+// cashWithdrawal (1100, 554334344);
+
+// //global variable
+// let accNumber = 22938298329
+// let accNumber = 21921928191
+
+// const cashWithdrawal = (amount, accnum) => {
+//     console.log(`withdrawing £ ${amount} from account ${accnum}`);
+    
+//     }
+//     //arguments
+//     cashWithdrawal (300, accNumber);
+//     cashWithdrawal (1100, accNumber);

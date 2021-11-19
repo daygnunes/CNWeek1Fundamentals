@@ -1,3 +1,5 @@
+// VARIABLES
+
 // Let example that will work
 //let age = 27;
 //console.log(age);
@@ -230,6 +232,41 @@
 //     console.log(`I'm working in ${placeOfWork} between 9 and 5`)
 // }
 
-/// ACTIVITY 7
+/// ACTIVITY 7 ------------------------
+// let string = 'jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi';
+// let vowelArr = ['a', 'e', 'i', 'o', 'u'];
+// let highestIndex =0;
 
-let = string ("jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi")
+// for (let i = 0; i < vowelArr.length; i++){
+// console.log(string.lastIndexOf(vowelArr[i]));
+
+//     index = string.lastIndexOf(vowelArr[i]);
+// if (index >= highestIndex ){
+//     highestIndex = index;
+//     lastVowel = vowelArr[i];
+// }
+// }
+
+// console.log(lastVowel); 
+// console.log(highestIndex)
+
+
+// // ACTIVITY 8 -----------------------
+// let word = "evening";
+// if (word.charAt(0) == word.charAt(word.length-1)){
+//   console.log("True")
+// } else {
+//   console.log("False")
+// }
+
+// // ACTIVITY 9 --------------------
+// let num1 = 7;
+// let num2 = 7;
+// let sum = num1 + num2;
+
+// if (sum % 2 == 0){
+//   console.log(`The sum = ${sum} and is even.`)
+// } else {
+//   console.log(`${num1 * num2}`)
+// }
+
